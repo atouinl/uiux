@@ -388,4 +388,37 @@ section {
   height: fit-content;
   position: relative;
   top: -100px;
+  padding: 90px 135px;
+  border: 1px solid rgba(255, 225, 255, 0.3);
+  border-radius: 20px;
+  background-color: rgba(255, 225, 255, 0.3);
+  -webkit-backdrop-filter: (30px);
+  -moz-backdrop-filter: (30px);
+  -o-backdrop-filter: (30px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.5s;
+}
+.blur-banner h2 {
+  font-size: 70px;
+  font-weight: 700;
+  flex: 1 1 0;
+}
+.blur-banner h2::before {
+  content: 'line';
+  font-size: 0;
+  display: block;
+  width: 60px;
+  height: 8px;
+  background-color: #fff;
+}
+.blur-banner p {
+  font-size: 25px;
+  flex: 1 1 0;
+  line-height: 1.7;
+  font-weight: 200;
+}
+.blur-banner:hover {
+  transform: translateY(-10px);
 }
