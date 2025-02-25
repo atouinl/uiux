@@ -758,7 +758,7 @@
   .sticky_sec .videos > div {
     width: 100%;
     margin-bottom: 150px;
-    height: 240px;
+    height: 216px;
   }
   .sticky_sec .videos > div > video {
     transform: scale(2) translateY(0);
